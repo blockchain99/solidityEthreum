@@ -235,14 +235,7 @@ $ geth --testnet --syncmode "light"  (default testnet-respen,see below)
 * [geth --testnet --syncmode "light"](https://ethereum.org/en/developers/tutorials/run-light-node-geth/) : default testnet- rospen
 
 -----------------------------------------------
-* geth --rinkeby --syncmode "light"  -> It works!!! , after run this geth server, need to run client by below command. 
-   * then client moudle run by $geth attach /home/ys/.ethereum/rinkeby/geth.ipc  (It works!!!)
-   * > admin
-   * > personal.newAccount(); -> javascript command //Management API
-      passphrase: lagestGunInKangWon_postechEntYr_MYInitialCapital_byul
-   -> ethereum create new account : my address. "0x1988f138d5bd466ee38d24a00cfb91deed7c5932"
-    - It saved in my hdd, ./ethreum/keystore -> if use mainnetwork, in this case, ~/.ethereum/rinkeby/keystore
-    as "UTC--2020-11-13T18-22-37.442122432Z--1988f138d5bd466ee38d24a00cfb91deed7c5932 "
+
 - Working with ethreum wallet, working with website that connects to blockchain ,
   * It's going via the browser to another blockchain node,
 where It has javascript rpc interface then it will send command there, 
